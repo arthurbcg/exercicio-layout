@@ -1,0 +1,403 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+
+    > .header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        >.nav{
+            margin-left: 220px;
+            >nav {
+                > ul {
+                    display: flex;
+                    > li {
+                        display: flex;
+                        color: #797979;
+                        padding: 15px;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                    }
+                } 
+    
+                >.active, li:hover{
+                    background-color: blue;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+.column{
+    flex-direction: column;
+}
+
+.banner{
+    background-image: url("./imgs/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    >h1, h2{
+        text-shadow: 0px 1px 0px #555555;
+        padding: 0;
+        margin: 0;
+        color: #fff;
+        max-width: 300px;
+    }
+
+    > h1{
+        font-size: 60px;
+    }
+
+    > h2{
+        font-size: 21px;
+        margin-top: 30px;
+    }
+}
+
+
+.banner-options{
+    height: 210px;
+    display: flex;
+}
+
+.banner1, .banner2, .banner3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.botao{
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.banner1{
+    background-color: #39aae1;
+}
+
+.banner2{
+    background-color: #0079c7;
+}
+
+.banner3{
+    background-color: #2b4c99;
+}
+
+.hours-container{
+    margin-top: -22px;
+}
+
+.hours{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divider{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #fff;
+}
+
+.banner-description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.geral{
+    display: flex;
+    justify-content: center;
+}
+
+.geral section {
+        flex: 2;
+}
+
+.geral aside {
+    flex: 1;
+}
+
+.widget-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    >h1{
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.divider-widget{
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+article .news-data{
+    display: flex;
+    flex-direction: row;
+}
+
+article .news-posted-at{
+    background-color: #2b4c99;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+    text-transform: uppercase;
+}
+
+article .news-comments{
+    background-color: #39aae1;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+article .news-img{
+    margin-top: 30px;
+    
+    > img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+article .news-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    >h2{
+        color: #000000;
+        font-size: 24px;
+    }
+}
+
+article .news-resume{
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+}
+
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+
+    >a {
+        text-decoration: none;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.fm1, .fm2, .fm3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.fm1{
+    background-color: #39aae1;
+}
+
+.fm2{
+    background-color: #0079c7;
+}
+
+.fm3{
+    background-color: #2b4c99;
+}
+
+.footer-area{
+    display: flex;
+}
+
+.footer-area-item{
+    flex: 1;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.footer-copy{
+    margin-top: 20px;
+    border-top: 2px solid #2c2c2c;
+    height: 40px;
+    color: #5c5c5c;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.widget-body{
+    
+}
+
+.list-area3 li{
+    >span{
+        color: #555555;
+    }
+}
+
+.area1-info{
+    margin-top: 20px;
+}
+
+.area1-info, .area1-title{
+    color: #555555;
+}
+
+.list-area3 li, .list-area2 li {
+    display: flex;
+    flex-direction: column;
+    
+    > a {
+        color: #0079c7;            
+        margin-top: 5px;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+}
+
+.area1-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-mobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm-line{
+    height: 3px;
+    background-color: #0079c7;
+}
+
+@media (max-width: 700px) {
+    .banner-text{
+        padding: 20px;
+
+        > h1 {
+            font-size: 45px;
+        }
+
+        >h2{
+            font-size: 12px;
+        }
+    }
+
+    .banner-options{
+        height: auto;
+        flex-direction: column;
+    }
+
+    section, aside {
+        margin-top: 30px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .geral section, .geral aside{
+        padding: 20px;
+    }
+
+    .footer-menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-area{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-copy{
+        padding-left: 20px;
+    }
+
+    header .container{
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    header{
+        height: auto;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menu-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

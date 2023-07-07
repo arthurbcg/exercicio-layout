@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu-mobile").addEventListener("click", function(){
+                if (document.querySelector(".nav nav ul").style.display == 'flex') {
+                    document.querySelector(".nav nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".nav nav ul").style.display = 'flex';
+                }
+            })
+        }
+    </script>
+
+    <title>Exercicio 1 - B7 WEB</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a>
+                        <img src="./imgs/logo.png" />
+                    </a>
+                </div>
+                <div class="nav">
+                    <nav>
+                        <div class="menu-mobile">
+                            <div class="mm-line"></div>
+                            <div class="mm-line"></div>
+                            <div class="mm-line"></div>
+                        </div>
+                        <ul>
+                            <li class="active">Home</li>
+                            <li>Blog</li>
+                            <li>Paginas</li>
+                            <li>Departamentos</li>
+                            <li>Timetable</li>
+                            <li>Galeria</li>
+                            <li>Contato</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container  column">
+            <div class="banner-text">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a responsive template perfect for all screen sizes</h2>
+            </div>
+            <div class="banner-options">
+                <div class="banner1">
+                    <h1 class="banner-title">Emergency Case</h1>
+                    <h4 class="banner-description">Algum texto qualquer</h4>
+                    <a href="" class="botao">Read more</a>
+                </div>
+                <div class="banner2">
+                    <h1 class="banner-title">Doctor Timetable</h1>
+                    <h4 class="banner-description">Algum texto qualquer</h4>
+                    <a href="" class="botao">Read more</a>
+                </div>
+                <div class="banner3">
+                    <h1 class="banner-title">Opening Hours</h1>
+                    <div class="hours-container">
+                        <div class="hours">
+                            <h5>Monday - Friday</h5>
+                            <h5>8.00 - 17.00</h5>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="hours">
+                            <h5>Saturday</h5>
+                            <h5>9.30 - 17.30</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget-title">
+                        <h2>Latest News</h2>
+                        <div class="divider-widget"></div>
+                    </div>
+                    <div class="widget-body  flex">
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">12 dec 12</div>
+                                    <div class="news-comments">2</div>
+                                </div>
+                                <div class="news-img">
+                                    <img src="./imgs/img1.jpg" />
+                                </div>
+                                <div class="news-title">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                </div>
+                                <div class="news-resume">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet ligula quis ligula tristique interdum sed id nisi. Phasellus sagittis ac tortor vel efficitur. Phasellus in ornare neque, faucibus luctus neque. Donec eget mi tincidunt, varius erat sit amet, aliquam arcu. Quisque eget risus varius, mattis massa in, pretium elit. Nulla facilisi. Praesent ut urna a risus cursus tincidunt efficitur vitae neque. Etiam urna sem, accumsan sed nisi non, varius pharetra arcu. Suspendisse eu nisl mollis, molestie lorem vel, commodo lorem. Aenean sit amet ipsum quam. Donec leo mauris, mattis non nisi sed, egestas fringilla tortor.</h4>
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">12 dec 12</div>
+                                    <div class="news-comments">2</div>
+                                </div>
+                                <div class="news-img">
+                                    <img src="./imgs/img1.jpg" />
+                                </div>
+                                <div class="news-title">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                </div>
+                                <div class="news-resume">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet ligula quis ligula tristique interdum sed id nisi. Phasellus sagittis ac tortor vel efficitur. Phasellus in ornare neque, faucibus luctus neque. Donec eget mi tincidunt, varius erat sit amet, aliquam arcu. Quisque eget risus varius, mattis massa in, pretium elit. Nulla facilisi. Praesent ut urna a risus cursus tincidunt efficitur vitae neque. Etiam urna sem, accumsan sed nisi non, varius pharetra arcu. Suspendisse eu nisl mollis, molestie lorem vel, commodo lorem. Aenean sit amet ipsum quam. Donec leo mauris, mattis non nisi sed, egestas fringilla tortor.</h4>
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">12 dec 12</div>
+                                    <div class="news-comments">2</div>
+                                </div>
+                                <div class="news-img">
+                                    <img src="./imgs/img1.jpg" />
+                                </div>
+                                <div class="news-title">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                </div>
+                                <div class="news-resume">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet ligula quis ligula tristique interdum sed id nisi. Phasellus sagittis ac tortor vel efficitur. Phasellus in ornare neque, faucibus luctus neque. Donec eget mi tincidunt, varius erat sit amet, aliquam arcu. Quisque eget risus varius, mattis massa in, pretium elit. Nulla facilisi. Praesent ut urna a risus cursus tincidunt efficitur vitae neque. Etiam urna sem, accumsan sed nisi non, varius pharetra arcu. Suspendisse eu nisl mollis, molestie lorem vel, commodo lorem. Aenean sit amet ipsum quam. Donec leo mauris, mattis non nisi sed, egestas fringilla tortor.</h4>
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted-at">12 dec 12</div>
+                                    <div class="news-comments">2</div>
+                                </div>
+                                <div class="news-img">
+                                    <img src="./imgs/img1.jpg" />
+                                </div>
+                                <div class="news-title">
+                                    <h2>Lorem ipsum dolor sit amet</h2>
+                                </div>
+                                <div class="news-resume">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet ligula quis ligula tristique interdum sed id nisi. Phasellus sagittis ac tortor vel efficitur. Phasellus in ornare neque, faucibus luctus neque. Donec eget mi tincidunt, varius erat sit amet, aliquam arcu. Quisque eget risus varius, mattis massa in, pretium elit. Nulla facilisi. Praesent ut urna a risus cursus tincidunt efficitur vitae neque. Etiam urna sem, accumsan sed nisi non, varius pharetra arcu. Suspendisse eu nisl mollis, molestie lorem vel, commodo lorem. Aenean sit amet ipsum quam. Donec leo mauris, mattis non nisi sed, egestas fringilla tortor.</h4>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget-title">
+                        <h2>Departamentos</h2>
+                        <div class="divider-widget"></div>
+                    </div>
+                    <div class="widget-body"></div>
+                </div>
+                <div class="widget">
+                    <div class="widget-title">
+                        <h2>Make An Appointment</h2>
+                        <div class="divider-widget"></div>
+                    </div>
+                    <div class="widget-body"></div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="container  column">
+            <div class="footer-menu">
+                <div class="fm1">
+                    <h2>Health Insurance</h2>
+                    <h5>Here in medicenter we have individual</h5>
+                </div>
+                <div class="fm2">
+                    <h2>Medical Records</h2>
+                    <h5>Here in medicenter we have individual</h5>
+                </div>
+                <div class="fm3">
+                    <h2>Online Bill Pay</h2>
+                    <h5>Here in medicenter we have individual</h5>
+                </div>
+            </div>
+            <div class="footer-area">
+                <div class="footer-area-item">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <h2>Medicenter Clinic</h2>
+                            <div class="divider-widget"></div>
+                        </div>
+                        <div class="widget-body">
+                            <div class="area1-title">
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet ex molestie, lacinia orci nec, gravida neque. Quisque sit amet est id orci varius ullamcorper.</span>
+                            </div>
+                            <div class="area1-info">
+                                <span>Medicenter Clinic</span>
+                                <div class="area1-row">
+                                    <div><span>Lorem ipsum</span></div>
+                                    <span>+123 456 789</span>
+                                </div>
+                                <div class="area1-row">
+                                    <span>Lorem ipsum</span>
+                                    <span>+123 456 789</span>
+                                </div>
+                                <div class="area1-row">
+                                    <span>Lorem ipsum</span>
+                                    <span>umemail@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-area-item">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <h2>Latest Posts</h2>
+                            <div class="divider-widget"></div>
+                        </div>
+                        <div class="widget-body">
+                            <ul class="list-area2">
+                                <li>
+                                    <span>Lorem ipsum</span>
+                                    <a>6 years ago</a>
+                                </li>
+                                <li>
+                                    <span>Lorem ipsum</span>
+                                    <a>6 years ago</a>
+                                </li>
+                                <li>
+                                    <span>Lorem ipsum</span>
+                                    <a>6 years ago</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-area-item">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <h2>Latest Tweets</h2>
+                            <div class="divider-widget"></div>
+                        </div>
+                        <div class="widget-body">
+                            <ul class="list-area3">
+                                <li>
+                                    <span>Lorem ipsum</span>
+                                    <a>6 years ago</a>
+                                </li>
+                                <li>
+                                    <span>Lorem ipsum</span>
+                                    <a>6 years ago</a>
+                                </li>
+                                <li>
+                                    <span>Lorem ipsum</span>
+                                    <a>6 years ago</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <h2>Copyright - Todos os direitos reservados</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
